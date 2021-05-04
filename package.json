@@ -1,0 +1,27 @@
+{
+  "scripts": {
+    "dev": "nuxt",
+    "build": "rm -rf .nuxt && ./node_modules/nuxt/bin/nuxt.js build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "test": "wdio wdio.conf.js"
+  },
+  "dependencies": {
+    "@wdio/utils": "^7.5.3",
+    "base64-js": "^1.5.1",
+    "node-gyp": "^8.0.0",
+    "python": "0.0.4",
+    "react-scripts": "^4.0.3",
+    "test": "^0.6.0",
+    "testing": "^2.0.1"
+  },
+  "devDependencies": {
+    "@wdio/cli": "^7.5.3",
+    "@wdio/local-runner": "^7.5.5",
+    "@wdio/mocha-framework": "^7.5.3",
+    "@wdio/spec-reporter": "^7.5.3",
+    "chromedriver": "^90.0.0",
+    "wdio-chromedriver-service": "^7.0.0",
+    "wdio-wiremock-service": "^6.0.6"
+  }
+}
