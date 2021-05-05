@@ -7,16 +7,21 @@
     "test": "wdio wdio.conf.js"
   },
   "dependencies": {
+    "@google-cloud/vision": "^2.3.1",
     "@wdio/utils": "^7.5.3",
+    "axios": "^0.21.1",
     "base64-js": "^1.5.1",
+    "image-downloader": "^4.0.2",
     "node-gyp": "^8.0.0",
     "python": "0.0.4",
     "react-scripts": "^4.0.3",
+    "request": "^2.88.2",
     "test": "^0.6.0",
     "testing": "^2.0.1"
   },
   "devDependencies": {
     "@wdio/cli": "^7.5.3",
+    "@wdio/devtools-service": "^7.5.3",
     "@wdio/local-runner": "^7.5.5",
     "@wdio/mocha-framework": "^7.5.3",
     "@wdio/spec-reporter": "^7.5.3",
